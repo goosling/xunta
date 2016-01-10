@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/iwant_infowindow_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/infowindow_bg"
+    android:clickable="true"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/iwant_infowindow_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="" 
+        android:textColor="@color/iwant_infowindow_text"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageButton
+        android:id="@+id/iwant_infowindow_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/iv_content_des"
+        android:background="@drawable/iwant_infowindow_divider"/>
+    
+    <ImageButton
+        android:id="@+id/iwant_infowindow_ib"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/iv_content_des"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ic_poi_go" />
+
+</LinearLayout>

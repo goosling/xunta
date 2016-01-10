@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:IwantuClient="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/main_actionbar_memberinfo"
+        IwantuClient:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_action_user"
+        android:title="@string/main_actionbar_memberinfo_title"/>
+    <item
+        android:id="@+id/main_actionbar_more"
+        IwantuClient:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_action_overflow"
+        android:title="@string/main_actionbar_more_title">
+        <menu>
+            <item
+                android:id="@+id/main_actionbar_feedback"
+                IwantuClient:showAsAction="ifRoom|withText|collapseActionView"
+                android:icon="@drawable/ic_action_mail"
+                android:title="@string/main_actionbar_feedback_title"/>
+            <item
+                android:id="@+id/main_actionbar_aboutus"
+                IwantuClient:showAsAction="ifRoom|withText|collapseActionView"
+                android:icon="@drawable/ic_action_cc_bcc"
+                android:title="@string/main_actionbar_aboutus_title"/>
+            <item
+                android:id="@+id/main_actionbar_exit"
+                IwantuClient:showAsAction="ifRoom|withText|collapseActionView"
+                android:icon="@drawable/ic_action_exit"
+                android:title="@string/main_actionbar_exit_title"/>
+        </menu>
+    </item>
+
+</menu>

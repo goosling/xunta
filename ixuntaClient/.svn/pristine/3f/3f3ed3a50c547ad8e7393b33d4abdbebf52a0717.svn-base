@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ixunta="http://schemas.android.com/apk/res/com.ixunta"
+    android:id="@+id/main_hsv_sub_rl"
+    android:layout_width="0dp"
+    android:layout_height="0dp" 
+    android:background="@drawable/main_hpicker_subview_bg">
+
+    <com.ixunta.client.myview.RoundedCornerImageView 
+        android:id="@+id/main_hpicker_subview_iv" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        ixunta:radius="@dimen/main_hpicker_iv_corner_radius_float"
+        android:contentDescription="@string/iv_content_des_1"/>
+
+    <TextView
+        android:id="@+id/main_hpicker_subview_tv_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:contentDescription="@string/content_description_unused"/>
+    <TextView
+        android:id="@+id/main_hpicker_subview_tv_portrait_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_hpicker_subview_tv_index"
+        android:visibility="invisible"
+        android:contentDescription="@string/content_description_unused"/>    
+    
+    <TextView
+        android:id="@+id/main_hpicker_subview_tv_taID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_hpicker_subview_tv_portrait_name"
+        android:visibility="invisible"
+        android:contentDescription="@string/content_description_unused"/>
+    
+
+
+</RelativeLayout>

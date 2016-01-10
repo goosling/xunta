@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<resources> 
+   <color name="mytheme_color">#FFFF8800</color>
+   <color name="actionbar_bg">#FF3a3a3a</color>
+   <color name="actionbar_text">#FFFFFFFF</color>
+   <color name="page_bg">#FF3a3a3a</color>
+   <color name="bt_pressed">#FF934918</color>
+   <color name="bt_disabled">#FFB5B5B6</color>
+   <color name="bt_txt_normal">#FFFFFFFF</color>
+   <color name="bt_txt_disabled">#FFFFFFFF</color>   
+   <color name="tv_default">#FFFFFFFF</color>
+   <color name="rb_text">#FFFFFFFF</color>
+   <color name="rb_text_highlight">#FFFFFFFF</color>
+   <color name="memberinfo_iv_bg_stroke">#FF9FA0A0</color>
+   <color name="memberinfo_iv_bg">#FF9FA0A0</color>
+   <color name="actv_disabled">#FFB5B5B6</color>
+   
+   
+   <color name="iwant_tv_text">#FFFFFFFF</color>
+   <color name="iwant_tv_bg">#BB3a3a3a</color>   
+   <color name="iwant_infowindow_text" >#FFFFFFFF</color>   
+   
+   <color name="grey_dark">#FF585858</color> 
+   <color name="light_grey_map_background">#FFF7F7F7</color> 
+   <color name="blue">#FF000080</color>
+   <color name="red">#FFFF0080</color>
+   <color name="light_blue">#FF4A83D7</color>
+   <color name="dark_green">#FF006200</color>   
+   <color name="light_green">#FF06F744</color>
+   <color name="white">#FFFFFFFF</color> 
+   <color name="black">#FF000000</color> 
+   <color name="black_semi_translucent">#AA000000</color>
+   <color name="yellow">#FFEAEA00</color>
+   <color name="transparent">#00000000</color>
+   <color name="translucent">#AA585858</color>
+   <color name="orange">#FFFFA500</color>
+   <color name="gold">#FFFFD700</color>
+   <color name="grey_light">#FFF1F1F1</color>
+           
+   
+  
+</resources>
+    

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:IwantuClient="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/aboutus_actionbar_back"
+        IwantuClient:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_action_back"
+        android:titleCondensed="返回"
+        android:title="@string/aboutus_actionbar_back_title"/>
+</menu>

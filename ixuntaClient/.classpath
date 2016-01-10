@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/android-support-v7-appcompat"/>
+	<classpathentry exported="true" kind="lib" path="libs/Android_Location_V1.0.5.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/umeng_sdk.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/opencsv.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/simple-crop-image-lib"/>
+	<classpathentry exported="true" kind="lib" path="libs/simple-xml-2.6.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/spring-android-core-1.0.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/spring-android-rest-template-1.0.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/Android_Map_2.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/Android_Services_2.2.0.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
